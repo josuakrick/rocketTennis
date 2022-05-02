@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: #E5E5E5;
+  display: -ms-grid;
+  display: grid;
+}
+
+header {
+  height: 5rem;
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+}
+
+header .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2rem;
+}
+
+header .navigation .logo {
+  padding-right: 6rem;
+  padding-left: 6rem;
+}
+
+header .navigation .logo img {
+  width: 3rem;
+}
+
+header .navigation .lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 5rem;
+  gap: 4.5rem;
+}
+
+header .navigation .lista li {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+header .navigation .lista li a {
+  color: #000;
+}
+
+header .navigation .busca {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  width: 13rem;
+  height: 2.15rem;
+  margin-right: 3.80rem;
+}
+
+header .navigation .busca a img {
+  width: 1.2rem;
+  height: 1.1rem;
+  margin-left: 0.40rem;
+  margin-right: 0.38rem;
+  margin-top: 0.20rem;
+}
+
+header .navigation .busca input {
+  border: none;
+}
+
+header .navigation .bag {
+  margin-right: 2rem;
+}
+
+header .navigation .bag img {
+  width: 2rem;
+}
+
+main {
+  width: 100%;
+}
+
+main .middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .price {
+  text-align: justify;
+  position: relative;
+  top: 6.5rem;
+  left: 6rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-flex: 1.1;
+      -ms-flex: 1.1;
+          flex: 1.1;
+}
+
+main .price h1 {
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+main .price p {
+  font-size: 0.80rem;
+  color: #9C9696;
+  margin-bottom: 1rem;
+}
+
+main .price h2 {
+  margin-bottom: 1rem;
+}
+
+main .price button {
+  width: 9rem;
+  height: 2.8rem;
+  background-color: #FF0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+}
+
+main .images {
+  background-color: #C4C4C4;
+  -webkit-box-flex: 1.9;
+      -ms-flex: 1.9;
+          flex: 1.9;
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .images .imagem_ampliada img {
+  width: 25rem;
+  padding-bottom: .8rem;
+  padding-top: 1rem;
+}
+
+main .images .imagem_selecionavel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: .8rem;
+  padding-bottom: .8rem;
+}
+
+main .images .imagem_selecionavel a {
+  cursor: pointer;
+}
+
+main .images .imagem_selecionavel a img {
+  width: 14rem;
+}
+
+main .images .imagem_selecionavel a img:hover {
+  -webkit-box-shadow: 1px 1px 1px gray;
+          box-shadow: 1px 1px 1px gray;
+}
+
+main .images .imagem_selecionavel a img:active {
+  border-bottom: 1px solid red;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3.5rem;
+}
+
+.footer .lista-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4rem;
+}
+
+.footer .lista-footer a {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.37rem;
+  cursor: pointer;
+}
+
+.footer button {
+  width: 100%;
+  color: white;
+  background-color: #000;
+  font-weight: bold;
+  font-size: 1.55rem;
+}
+/*# sourceMappingURL=style.css.map */

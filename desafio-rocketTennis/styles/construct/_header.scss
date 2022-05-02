@@ -1,0 +1,71 @@
+@import '../assetscss/variaveis';
+
+header {
+    height: 5rem;
+    background-color: transparent;
+        position: absolute;
+        // margin-left: 5rem; um dos problemas de rolagem
+        z-index: 1;
+    .navigation {
+        // width: 100%; um dos problemas de rolagem
+        display: flex;
+        align-items: center;
+        padding-top: 2rem;
+        // @media screen and (min-width: 320px) {
+        //     .navigation {
+        //         flex-direction: column;
+        //     }
+        // }
+        
+        
+        .logo {
+            padding-right: 6rem;
+            padding-left: 6rem;
+            img {
+                width: 3rem;
+            }
+        }
+        .lista {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 5rem;
+            // margin-left: 4rem;
+            gap: 4.5rem;
+            li{
+                font-size: 1.5rem;
+                font-weight: 700;
+                // margin-right: 5rem;
+                a {
+                    color: $cor-text;
+                }
+            }
+        }
+        .busca {
+            display: flex;
+            align-items: center;
+            background-color: $cor-background-busca;
+            width: 13rem;
+            height: 2.15rem;
+            margin-right: 3.80rem;
+            a{
+                img {
+                    width: 1.2rem;
+                    height: 1.1rem;
+                    margin-left: 0.40rem;
+                    margin-right: 0.38rem;
+                    margin-top: 0.20rem;
+                }
+            }
+            input {
+                border: none;
+                }
+        }
+            .bag {
+                margin-right: 2rem;
+                img {
+                    width: 2rem;
+                }
+            }
+    }
+}
+    

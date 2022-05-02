@@ -1,0 +1,23 @@
+@import '../assetscss/variaveis';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: $font-geral;
+}
+
+
+
+
+body {
+    // Deixar body sem width, exceto quando se quer definir um tamanho que não total
+    text-align: center;
+    background-color: $cor-background;
+    display: grid;
+    // overflow: hidden;
+}
+
+// para corrigir problemas de body menor e com rolagem, colocar main, header, footer com 100¨% e nav nao

@@ -1,0 +1,25 @@
+@import '../assetscss/variaveis';
+
+.footer {
+    display: flex;
+    gap: 3.5rem;
+    .lista-footer {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+         a {
+            width: max-content;
+            color: $cor-footer;
+            font-weight: bold;
+            font-size: 1.37rem;
+            cursor: pointer;
+        }
+    }
+    button {
+        width:100%;
+        color: white;
+        background-color: $cor-footer;
+        font-weight: bold;
+        font-size: 1.55rem;
+    }
+}

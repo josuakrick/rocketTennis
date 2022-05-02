@@ -1,0 +1,81 @@
+@import '../assetscss/variaveis';
+
+main {
+    width: 100%;
+    .middle {
+        display: flex;
+        
+    }
+    
+    .price {
+        text-align: justify;
+        position: relative;
+        top: 6.5rem;
+        left: 6rem;
+        width: fit-content;
+        flex: 1.1;
+        h1 {
+            font-size: 2.8rem;
+            font-style: normal;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 0.80rem;
+            color: $cor-text-description;
+            margin-bottom: 1rem;
+        }
+        h2{
+            margin-bottom: 1rem;
+        }
+        button {
+            width: 9rem;
+            height: 2.8rem;
+            background-color: $cor-button;
+            color: $cor-background-busca;
+            border: none;
+            border-radius: 0.2rem;
+            font-size: 1rem;
+        }
+    }
+    
+    .images {
+        background-color: $cor-main-background;
+        flex: 1.9;
+        height: 95vh;
+        // width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        
+        .imagem_ampliada {
+            img {
+                width:25rem;
+                padding-bottom: .8rem;
+                padding-top: 1rem;
+            }
+        }
+
+        .imagem_selecionavel {
+            display: flex;
+            gap: .8rem;
+            padding-bottom: .8rem;
+            a {
+                cursor: pointer;  
+                img {
+                    width: 14rem;
+                }
+                img:hover {
+                    box-shadow: 1px 1px 1px gray;
+                }
+                img:active {
+                    border-bottom: 1px solid red;
+                }
+            }
+        }
+        
+        
+        
+    }
+}
